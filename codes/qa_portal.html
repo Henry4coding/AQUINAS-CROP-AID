@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Q&A Portal - AQUINAS CROP AID</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <h1>Crop Q&A Portal</h1>
+        </header>
+        <main>
+            <h2>Ask Your Crop Questions</h2>
+            <form id="qa-form">
+                <textarea id="question" placeholder="Type your question here..." rows="4" cols="50"></textarea><br>
+                <button type="button" onclick="submitQuestion()">Ask Question</button>
+            </form>
+            <div id="answer" style="margin-top: 20px; color: white;"></div>
+        </main>
+    </div>
+    <script src="/static/js/qa_script.js"></script>
+</body>
+</html>
